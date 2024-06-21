@@ -10,6 +10,12 @@ import Units from "./pages/Units.jsx";
 import Tenants from "./pages/Tenants.jsx";
 import Leases from "./pages/Leases.jsx";
 import Configurations from "./pages/Configurations.jsx";
+import RoleBasedAccessControl from "./components/RoleBasedAccessControl.jsx";
+import TenantOnboarding from "./components/TenantOnboarding.jsx";
+import PaymentProcessing from "./components/PaymentProcessing.jsx";
+import Reporting from "./components/Reporting.jsx";
+import Notices from "./components/Notices.jsx";
+import Advertising from "./components/Advertising.jsx";
 
 function App() {
   return (
@@ -26,6 +32,12 @@ function App() {
         <Route exact path="/tenants" element={<Tenants />} />
         <Route exact path="/leases" element={<Leases />} />
         <Route exact path="/configurations" element={<Configurations />} />
+        <Route exact path="/role-based-access-control" element={<RoleBasedAccessControl />} />
+        <Route exact path="/tenant-onboarding" element={<TenantOnboarding />} />
+        <Route exact path="/payment-processing" element={<PaymentProcessing />} />
+        <Route exact path="/reporting" element={<Reporting />} />
+        <Route exact path="/notices" element={<Notices />} />
+        <Route exact path="/advertising" element={<Advertising />} />
       </Routes>
     </Router>
   );
