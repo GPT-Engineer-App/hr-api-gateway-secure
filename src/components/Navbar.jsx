@@ -17,6 +17,24 @@ const Navbar = () => {
           <Link as={RouterLink} to="/contact" color="white" mr={4}>
             Contact
           </Link>
+          <Link as={RouterLink} to="/role-based-access-control" color="white" mr={4}>
+            Role-Based Access Control
+          </Link>
+          <Link as={RouterLink} to="/tenant-onboarding" color="white" mr={4}>
+            Tenant Onboarding
+          </Link>
+          <Link as={RouterLink} to="/payment-processing" color="white" mr={4}>
+            Payment Processing
+          </Link>
+          <Link as={RouterLink} to="/reporting" color="white" mr={4}>
+            Reporting
+          </Link>
+          <Link as={RouterLink} to="/notices" color="white" mr={4}>
+            Notices
+          </Link>
+          <Link as={RouterLink} to="/advertising" color="white" mr={4}>
+            Advertising
+          </Link>
           <Button as={RouterLink} to="/login" colorScheme="teal" variant="outline">
             Login
           </Button>

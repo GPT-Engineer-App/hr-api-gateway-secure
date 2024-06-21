@@ -21,6 +21,24 @@ const Sidebar = () => {
           <Link as={RouterLink} to="/configurations" w="100%" textAlign="center" py={2} _hover={{ bg: "gray.700" }}>
             Configurations
           </Link>
+          <Link as={RouterLink} to="/role-based-access-control" w="100%" textAlign="center" py={2} _hover={{ bg: "gray.700" }}>
+            Role-Based Access Control
+          </Link>
+          <Link as={RouterLink} to="/tenant-onboarding" w="100%" textAlign="center" py={2} _hover={{ bg: "gray.700" }}>
+            Tenant Onboarding
+          </Link>
+          <Link as={RouterLink} to="/payment-processing" w="100%" textAlign="center" py={2} _hover={{ bg: "gray.700" }}>
+            Payment Processing
+          </Link>
+          <Link as={RouterLink} to="/reporting" w="100%" textAlign="center" py={2} _hover={{ bg: "gray.700" }}>
+            Reporting
+          </Link>
+          <Link as={RouterLink} to="/notices" w="100%" textAlign="center" py={2} _hover={{ bg: "gray.700" }}>
+            Notices
+          </Link>
+          <Link as={RouterLink} to="/advertising" w="100%" textAlign="center" py={2} _hover={{ bg: "gray.700" }}>
+            Advertising
+          </Link>
         </VStack>
       </Flex>
     </Box>
